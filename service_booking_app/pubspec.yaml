@@ -1,0 +1,35 @@
+name: service_booking_app
+description: A service booking application similar to Zomato/Uber
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.2.3
+  http: ^0.13.5
+  stripe_payment: ^4.0.1
+  intl: ^0.18.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.15
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.7.1
+  google_sign_in: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
